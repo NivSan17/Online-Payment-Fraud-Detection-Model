@@ -71,11 +71,9 @@ print(data.type.value_counts())
 
 
 #set variables for transaction and quanity
-type = data['type'].value_counts()
-transaction = type.index 
-print(transaction)
-quantity = type.value_counts()
-print(quantity)
+type = data["type"].value_counts()
+transactions = type.index
+quantity = type.values
 
 
 # In[46]:
